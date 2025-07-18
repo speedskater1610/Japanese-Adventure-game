@@ -5,6 +5,7 @@ function setup() {
   
   //create the player and set them up
   let player = new Player("defualt", 1);
+  console.log(player);
 }
 
 /// @breif draw things on the screen from here (main loop at 60fps)
