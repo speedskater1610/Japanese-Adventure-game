@@ -4,7 +4,7 @@ function setup() {
   createCanvas(window.innerWidth * 0.75, window.innerHeight * 0.75);
   
   //create the player and set them up
-  let player = new Player("defualt", 0);
+  let player = new Player("defualt", 1);
 }
 
 /// @breif draw things on the screen from here (main loop at 60fps)
