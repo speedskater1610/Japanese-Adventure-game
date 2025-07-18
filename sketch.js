@@ -53,28 +53,28 @@ function set_up_input_buttons () {
   // TODO (russel) set up the buttons to be in place
   // W
   button = createButton("W");
-  button.position(WINDOW_WIDTH, WINDOW_HEIGHT);
+  button.position(WINDOW_WIDTH/2, WINDOW_HEIGHT);
   button.mousePressed(() => {
     console.log("W");
   });
 
   // A
   button = createButton("A");
-  button.position(WINDOW_WIDTH, WINDOW_HEIGHT);
+  button.position(WINDOW_WIDTH/2, WINDOW_HEIGHT);
   button.mousePressed(() => {
     console.log("A");
   });
 
   // S
   button = createButton("S");
-  button.position(WINDOW_WIDTH, WINDOW_HEIGHT);
+  button.position(WINDOW_WIDTH/2, WINDOW_HEIGHT);
   button.mousePressed(() => {
     console.log("S");
   });
 
   // D
   button = createButton("D");
-  button.position(WINDOW_WIDTH, WINDOW_HEIGHT);
+  button.position(WINDOW_WIDTH/2, WINDOW_HEIGHT);
   button.mousePressed(() => {
     console.log("D");
   });
