@@ -6,5 +6,5 @@ function setup() {
 
 /// @breif draw things on the screen from here
 function draw() {
-  background(140);
+  background(220);
 }
