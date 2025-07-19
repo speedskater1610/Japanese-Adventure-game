@@ -1,4 +1,4 @@
-class Player {
+class Player {    
   constructor(name, level) {
     // things about the player 
     this.name = name;
